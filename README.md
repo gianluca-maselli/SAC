@@ -6,3 +6,4 @@ This implementation of the Soft Actor-Critic algorithm has been updated to suppo
 ## Resuts and Comparison
 SAC was benchmarked on six environments from the DeepMind Control Suite. We evaluated a Gaussian policy against a discrete policy across 10 random seeds, reporting results with 95th percentile confidence intervals. The same set of hyperparameters was used across all tasks.
 
+<img src="images/results.png" width="1024"/>
