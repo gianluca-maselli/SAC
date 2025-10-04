@@ -1,6 +1,6 @@
 import os
 os.environ['MUJOCO_GL'] = 'egl'
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import argparse
 import torch
 import numpy as np
