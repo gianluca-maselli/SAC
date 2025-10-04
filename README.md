@@ -52,5 +52,9 @@ optional arguments:
   --target_update_interval TARGET_UPDATE_INTERVAL          Value target update per no. of updates per step (default: 1).
   --save_video SAVE_VIDEO                                  Save N=eval_ep videos during evaluation: False).
 ```
-
+## Acknowledgement
+The code is inspired by the following implementation:
+1. [pytorch-soft-actor-critic](https://github.com/pranz24/pytorch-soft-actor-critic) by [pranz24](https://github.com/pranz24)
+2. [pytorch_sac](https://github.com/denisyarats/pytorch_sac) by [denisyarats](https://github.com/denisyarats)
+3. [rl_with_resets](https://github.com/evgenii-nikishin/rl_with_resets) by [evgenii-nikishin](https://github.com/evgenii-nikishin)
 
