@@ -17,7 +17,7 @@ def main():
     parser.add_argument('--env_name', default="quadruped-run",
                     help='DM control environment (default: hopper-hop).')
     parser.add_argument('--seed', type=int, default=0, help='random seed (default: 0).')
-    parser.add_argument('--policy', default="Deterministic",
+    parser.add_argument('--policy', default="Gaussian",
                     help='Policy Type: Gaussian | Deterministic (default: Gaussian).')
     parser.add_argument('--eval_ep', type=int, default=10,
             help='Number of episodes used for evaluation (default: 10).')
